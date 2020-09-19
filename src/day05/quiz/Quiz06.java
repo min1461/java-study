@@ -7,19 +7,19 @@ public class Quiz06 {
 		Scanner in = new Scanner(System.in);
 
 		int n1 = 0, n2 = 0;
-		System.out.print("Ã¹¹øÂ° ¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À : ");
+		System.out.print("ì²«ë²ˆì§¸ ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤ : ");
 		n1 = in.nextInt();
-		System.out.print("µÎ¹øÂ° ¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À : ");
+		System.out.print("ë‘ë²ˆì§¸ ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤ : ");
 		n2 = in.nextInt();
 
 		in.close();
 		if (n1 >= n2) {
 			if (n1 % 2 == 0) {
-				System.out.println(n1 + "´Â Â¦¼öÀÌ´Ù.");
+				System.out.println(n1 + "ëŠ” ì§ìˆ˜ì´ë‹¤.");
 			}
 		} else {
 			if (n2 % 2 == 0) {
-				System.out.println(n2 + "´Â Â¦¼öÀÌ´Ù.");
+				System.out.println(n2 + "ëŠ” ì§ìˆ˜ì´ë‹¤.");
 			}
 		}
 	}

@@ -7,7 +7,7 @@ public class Quiz02 {
 		
 		Scanner in = new Scanner(System.in);
 
-		System.out.println("»ê¼ú ¿¬»êÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä(+,-,*,/,%):");
+		System.out.println("ì‚°ìˆ  ì—°ì‚°ìë¥¼ ì…ë ¥í•˜ì„¸ìš”(+,-,*,/,%):");
 		char op = in.nextLine().charAt(0);
 
 		String result =
@@ -15,9 +15,9 @@ public class Quiz02 {
 				 op == '-' ||
 			 	 op == '*' ||
 				 op == '/' ||
-				 op == '%') ? "»ê¼ú¿¬»êÀÚÀÔ´Ï´Ù." : "»ê¼ú¿¬»êÀÚ°¡ ¾Æ´Õ´Ï´Ù.";
-		// ³í¸®¿¬»êÀÚ
-		System.out.println(op+"´Â"+result);
+				 op == '%') ? "ì‚°ìˆ ì—°ì‚°ìì…ë‹ˆë‹¤." : "ì‚°ìˆ ì—°ì‚°ìê°€ ì•„ë‹™ë‹ˆë‹¤.";
+		// ë…¼ë¦¬ì—°ì‚°ì
+		System.out.println(op+"ëŠ”"+result);
 		in.close();
 	}
 

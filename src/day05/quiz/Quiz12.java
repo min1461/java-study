@@ -8,26 +8,26 @@ public class Quiz12 {
 		int a = 0;
 		int b = 0;
 		int c = 0;
-		System.out.print("Ã¹¹øÂ° °ú¸ñ ¼ºÀû : ");
+		System.out.print("ì²«ë²ˆì§¸ ê³¼ëª© ì„±ì  : ");
 		a = score.nextInt();
-		System.out.print("µÎ¹øÂ° °ú¸ñ ¼ºÀû : ");
+		System.out.print("ë‘ë²ˆì§¸ ê³¼ëª© ì„±ì  : ");
 		b = score.nextInt();
-		System.out.print("¼¼¹øÂ° °ú¸ñ ¼ºÀû : ");
+		System.out.print("ì„¸ë²ˆì§¸ ê³¼ëª© ì„±ì  : ");
 		c = score.nextInt();
 		score.close();
 		int sum = a + b + c;
 		int ever = sum / 3;
 
 		if (ever >= 90) {
-			System.out.print("ÇÕ°è : " + sum + "Á¡, Æò±Õ : " + ever + ", µî±Ş : " + "A");
+			System.out.print("í•©ê³„ : " + sum + "ì , í‰ê·  : " + ever + ", ë“±ê¸‰ : " + "A");
 		} else if (ever < 90 && ever >= 80) {
-			System.out.print("ÇÕ°è : " + sum + "Á¡, Æò±Õ : " + ever + ", µî±Ş : " + "B");
+			System.out.print("í•©ê³„ : " + sum + "ì , í‰ê·  : " + ever + ", ë“±ê¸‰ : " + "B");
 		} else if (ever < 80 && ever >= 70) {
-			System.out.print("ÇÕ°è : " + sum + "Á¡, Æò±Õ : " + ever + ", µî±Ş : " + "C");
+			System.out.print("í•©ê³„ : " + sum + "ì , í‰ê·  : " + ever + ", ë“±ê¸‰ : " + "C");
 		} else if (ever < 70 && ever >= 60) {
-			System.out.print("ÇÕ°è : " + sum + "Á¡, Æò±Õ : " + ever + ", µî±Ş : " + "D");
+			System.out.print("í•©ê³„ : " + sum + "ì , í‰ê·  : " + ever + ", ë“±ê¸‰ : " + "D");
 		} else if (ever < 60) {
-			System.out.print("ÇÕ°è : " + sum + "Á¡, Æò±Õ : " + ever + ", µî±Ş : " + "E");
+			System.out.print("í•©ê³„ : " + sum + "ì , í‰ê·  : " + ever + ", ë“±ê¸‰ : " + "E");
 		}
 
 	}

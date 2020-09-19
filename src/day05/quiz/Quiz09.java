@@ -3,24 +3,24 @@ package day05.quiz;
 import java.util.Scanner;
 
 /*
- * À¯¿øÁö¿¡¼­ ¸»À» ÅÂ¿öÁÖ´Âµ¥ 
- * Ã³À½ 30ºĞÀÇ ±âº»¿ä±İÀº 1ÀÎ´ç 3000¿øÀÌ´Ù. 
- * ÀÌÈÄ¿¡´Â 10ºĞ´ç 500¿ø¾¿ÀÇ Ãß°¡ ¿ä±İÀ» ¹Ş´Â´Ù. 
- * ¸»À» Åº ½Ã°£À» ÀÔ·Â ¹Ş¾Æ¼­ 
- * ÀüÃ¼ ±İ¾×À» °è»êÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ¿©¶ó.
+ * ìœ ì›ì§€ì—ì„œ ë§ì„ íƒœì›Œì£¼ëŠ”ë° 
+ * ì²˜ìŒ 30ë¶„ì˜ ê¸°ë³¸ìš”ê¸ˆì€ 1ì¸ë‹¹ 3000ì›ì´ë‹¤. 
+ * ì´í›„ì—ëŠ” 10ë¶„ë‹¹ 500ì›ì”©ì˜ ì¶”ê°€ ìš”ê¸ˆì„ ë°›ëŠ”ë‹¤. 
+ * ë§ì„ íƒ„ ì‹œê°„ì„ ì…ë ¥ ë°›ì•„ì„œ 
+ * ì „ì²´ ê¸ˆì•¡ì„ ê³„ì‚°í•˜ëŠ” í”„ë¡œê·¸ë¨ì„ ì‘ì„±í•˜ì—¬ë¼.
  */
 public class Quiz09 {
 	public static void main(String[] args) {
-		// finalÀÌ ¼±¾ğµÈ º¯¼ö´Â »ó¼öÈ­µÈ º¯¼öÀÌ´Ù.
-		final int baseTime = 30;// 30ºĞ ±âº»ÀÌ¿ë½Ã°£
-		final int basePrice = 3000;// 3000¿ø ±âº»ÀÌ¿ë·á
-		final int perAddTime = 1;// 10ºĞ´ç Ãß°¡¿ä±İ±âÁØ½Ã°£
-		final int perAddPrice = 50;// 500¿ø Ãß°¡ÀÌ¿ë·á
-		int useTime = 0;// ÀÌ¿ë½Ã°£
-		int usePrice = 0;// ÀÌ¿ë±İ¾×
+		// finalì´ ì„ ì–¸ëœ ë³€ìˆ˜ëŠ” ìƒìˆ˜í™”ëœ ë³€ìˆ˜ì´ë‹¤.
+		final int baseTime = 30;// 30ë¶„ ê¸°ë³¸ì´ìš©ì‹œê°„
+		final int basePrice = 3000;// 3000ì› ê¸°ë³¸ì´ìš©ë£Œ
+		final int perAddTime = 1;// 10ë¶„ë‹¹ ì¶”ê°€ìš”ê¸ˆê¸°ì¤€ì‹œê°„
+		final int perAddPrice = 50;// 500ì› ì¶”ê°€ì´ìš©ë£Œ
+		int useTime = 0;// ì´ìš©ì‹œê°„
+		int usePrice = 0;// ì´ìš©ê¸ˆì•¡
 
 		Scanner in = new Scanner(System.in);
-		System.out.print("¸» Åº ½Ã°£:");
+		System.out.print("ë§ íƒ„ ì‹œê°„:");
 		useTime = in.nextInt();
 		in.close();
 		if (useTime <= baseTime) {
@@ -31,6 +31,6 @@ public class Quiz09 {
 			usePrice += basePrice;
 		}
 
-		System.out.println("ÀÌ¿ë±İ¾×:" + usePrice);
+		System.out.println("ì´ìš©ê¸ˆì•¡:" + usePrice);
 	}
 }

@@ -6,14 +6,14 @@ public class Quiz04 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
-		System.out.println("°ªÀ» ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("ê°’ì„ ì…ë ¥í•˜ì„¸ìš”.");
 
 		int num = scan.nextInt();
 		scan.close();
 		if (num % 2 == 0) {
-			System.out.println("Â¦¼öÀÔ´Ï´Ù.");
+			System.out.println("ì§ìˆ˜ì…ë‹ˆë‹¤.");
 		} else {
-			System.out.println("È¦¼öÀÔ´Ï´Ù.");
+			System.out.println("í™€ìˆ˜ì…ë‹ˆë‹¤.");
 		}
 	}
 

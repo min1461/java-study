@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Quiz03 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		System.out.println("°ªÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.println("ê°’ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 		int num = scan.nextInt();
 		scan.close();
 		if(num % 3 ==0) {

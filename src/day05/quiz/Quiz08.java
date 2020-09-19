@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Quiz08 {
 	public static void main(String[] args) {
-		// 3ÀÇ ¹è¼öÀÌ¸é¼­ 5ÀÇ ¹è¼ö´Â Ãâ·Â(3ÀÇ ¹è¼ö´Â Á¦¿Ü)
+		// 3ì˜ ë°°ìˆ˜ì´ë©´ì„œ 5ì˜ ë°°ìˆ˜ëŠ” ì¶œë ¥(3ì˜ ë°°ìˆ˜ëŠ” ì œì™¸)
 		Scanner in = new Scanner(System.in);
 
-		System.out.print("¼ö ÀÔ·Â:");
+		System.out.print("ìˆ˜ ì…ë ¥:");
 		int n = in.nextInt();
 
 		in.close();

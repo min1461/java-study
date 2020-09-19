@@ -4,16 +4,16 @@ import java.util.Scanner;
 
 public class Quiz051 {
 	public static void main(String[] args) {
-		// ¼¼ ¼ö¸¦ ÀÔ·Â¹Ş¾Æ Å« ¼ø¼­´ë·Î Ãâ·Â
+		// ì„¸ ìˆ˜ë¥¼ ì…ë ¥ë°›ì•„ í° ìˆœì„œëŒ€ë¡œ ì¶œë ¥
 
 		Scanner in = new Scanner(System.in);
 
 		int n1 = 0, n2 = 0, n3 = 0;
-		System.out.print("Ã¹ ¹øÂ° ¼ö ÀÔ·Â:");
+		System.out.print("ì²« ë²ˆì§¸ ìˆ˜ ì…ë ¥:");
 		n1 = in.nextInt();
-		System.out.print("µÎ ¹øÂ° ¼ö ÀÔ·Â:");
+		System.out.print("ë‘ ë²ˆì§¸ ìˆ˜ ì…ë ¥:");
 		n2 = in.nextInt();
-		System.out.print("¼¼ ¹øÂ° ¼ö ÀÔ·Â:");
+		System.out.print("ì„¸ ë²ˆì§¸ ìˆ˜ ì…ë ¥:");
 		n3 = in.nextInt();
 		in.close();
 

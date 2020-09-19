@@ -5,25 +5,25 @@ import java.util.Scanner;
 public class Quiz11 {
 	public static void main(String[] args) {
 		Scanner disk = new Scanner(System.in);
-		// µğ½ºÄÏ °¹¼ö
-		// °³´ç °¡°İ
-		// 10°³ÀÌ»ó °¡°İ
-		// 100°³ÀÌ»ó °¡°İ
+		// ë””ìŠ¤ì¼“ ê°¯ìˆ˜
+		// ê°œë‹¹ ê°€ê²©
+		// 10ê°œì´ìƒ ê°€ê²©
+		// 100ê°œì´ìƒ ê°€ê²©
 		int or = 0;
 		int pr = 5000;
 		int pr10 = (int) (pr * 0.90);
 		int pr100 = (int) (pr * 0.88);
-		System.out.print("µğ½ºÅ©ÀÇ °³¼ö : ");
+		System.out.print("ë””ìŠ¤í¬ì˜ ê°œìˆ˜ : ");
 		or = disk.nextInt();
 		disk.close();
 		if (or < 10) {
-			System.out.print("°¡°İ : " + or * pr);
+			System.out.print("ê°€ê²© : " + or * pr);
 			
 		} else if (100 > or && or >= 10) {
-			System.out.print("°¡°İ : " + or * pr10);
+			System.out.print("ê°€ê²© : " + or * pr10);
 
 		} else if (or>=100) {
-			System.out.println("°¡°İ : " + or * pr100);
+			System.out.println("ê°€ê²© : " + or * pr100);
 		}
 	}
 

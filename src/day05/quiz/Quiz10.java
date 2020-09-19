@@ -4,21 +4,21 @@ import java.util.Scanner;
 
 public class Quiz10 {
 	public static void main(String[] args) {
-		// ÁÖ¹® °¹¼ö or
-		// 10°³ ÀÌÇÏÀÏ¶§ °³´ç °¡°İ orPr
-		// 10°³ ÃÊ°úÀÏ‹š °³´ç °¡°İ or10Pr
+		// ì£¼ë¬¸ ê°¯ìˆ˜ or
+		// 10ê°œ ì´í•˜ì¼ë•Œ ê°œë‹¹ ê°€ê²© orPr
+		// 10ê°œ ì´ˆê³¼ì¼ë–„ ê°œë‹¹ ê°€ê²© or10Pr
 		Scanner in = new Scanner(System.in);
 		
 		int or = 0;
 		int orPr = 2500;
 		int or10Pr = 2400;
-		System.out.print("ÁÖ¹®°¹¼ö : ");
+		System.out.print("ì£¼ë¬¸ê°¯ìˆ˜ : ");
 		or = in.nextInt();
 		in.close();
 		if (or<=10) {
-			System.out.print("°¡°İ : " + or * orPr);
+			System.out.print("ê°€ê²© : " + or * orPr);
 		} else if (or>10) {
-			System.out.print("°¡°İ : " + or * or10Pr);
+			System.out.print("ê°€ê²© : " + or * or10Pr);
 		}
 	}
 }

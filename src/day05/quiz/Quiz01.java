@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Quiz01 {
 	public static void main(String[] args) {
-		// ¿¬»êÀÚÀÇ ¿ì¼±¼øÀ§(ÇÊÈ÷ ¾Ï±âÇØ¾ß)
-		System.out.println("ÇÕ°İ ¿©ºÎ ÀÔ·Â(1 or 2):");
+		// ì—°ì‚°ìì˜ ìš°ì„ ìˆœìœ„(í•„íˆ ì•”ê¸°í•´ì•¼)
+		System.out.println("í•©ê²© ì—¬ë¶€ ì…ë ¥(1 or 2):");
 
 		Scanner in = new Scanner(System.in);
 		int n = in.nextInt();
 
-		String result = (n == 1) ? "ÇÕ°İÀÔ´Ï´Ù." : "ºÒÇÕ°İÀÔ´Ï´Ù.";
+		String result = (n == 1) ? "í•©ê²©ì…ë‹ˆë‹¤." : "ë¶ˆí•©ê²©ì…ë‹ˆë‹¤.";
 		System.out.println(result);
 		in.close();
 	}
