@@ -6,17 +6,17 @@ public class Quiz03 {
    public static void main(String[] args) {
       Scanner in = new Scanner(System.in);
 /*      
-      System.out.print("´ç½ÅÀÇ ÀÌ¸§Àº ¹«¾ùÀÔ´Ï±î?");
+      System.out.print("ë‹¹ì‹ ì˜ ì´ë¦„ì€ ë¬´ì—‡ì…ë‹ˆê¹Œ?");
       String name = in.nextLine();
-      System.out.print(name + "´ÔÀÇ ³ªÀÌ´Â ¸î »ì ÀÔ´Ï±î?");
+      System.out.print(name + "ë‹˜ì˜ ë‚˜ì´ëŠ” ëª‡ ì‚´ ì…ë‹ˆê¹Œ?");
       int age = in.nextInt();
-      System.out.println(name+"´ÔÀÇ ³ªÀÌ´Â "+age+"»ìÀÔ´Ï´Ù.");
+      System.out.println(name+"ë‹˜ì˜ ë‚˜ì´ëŠ” "+age+"ì‚´ì…ë‹ˆë‹¤.");
 */
-      System.out.print("´ç½ÅÀÇ ÀÌ¸§Àº ¹«¾ùÀÔ´Ï±î?");
+      System.out.print("ë‹¹ì‹ ì˜ ì´ë¦„ì€ ë¬´ì—‡ì…ë‹ˆê¹Œ?");
       String name = in.nextLine();
-      System.out.printf("%s´ÔÀÇ ³ªÀÌ´Â ¸î »ì ÀÔ´Ï±î?", name);
+      System.out.printf("%së‹˜ì˜ ë‚˜ì´ëŠ” ëª‡ ì‚´ ì…ë‹ˆê¹Œ?", name);
       int age = in.nextInt();
-      System.out.printf("%s´ÔÀÇ ³ªÀÌ´Â %d»ìÀÔ´Ï´Ù.", name, age);
+      System.out.printf("%së‹˜ì˜ ë‚˜ì´ëŠ” %dì‚´ì…ë‹ˆë‹¤.", name, age);
       in.close();
    }
 }

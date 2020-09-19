@@ -8,7 +8,7 @@ public class exam01 {
 		int score = scan.nextInt();
 		scan.close();
 		if (score > 60) {
-			System.out.println("�հ��Դϴ�");
+			System.out.println("합격입니다");
 		}
 
 	}

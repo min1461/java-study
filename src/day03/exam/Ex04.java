@@ -2,13 +2,13 @@ package day03.exam;
 
 public class Ex04 {
 	public static void main(String[] args) {
-		String name = "È«±æµ¿";
+		String name = "í™ê¸¸ë™";
 		int age = 20;
 		float height = 179.34f;
 				
-		System.out.println("ÀÌ¸§:" + name);
-		System.out.println("³ªÀÌ:" + age);
-		System.out.println("Å°:" + height);
+		System.out.println("ì´ë¦„:" + name);
+		System.out.println("ë‚˜ì´:" + age);
+		System.out.println("í‚¤:" + height);
 		
 	}
 

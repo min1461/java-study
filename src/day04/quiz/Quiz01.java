@@ -3,42 +3,42 @@ package day04.quiz;
 import java.io.IOException;
 import java.util.Scanner;
 
-//ÀÚ½ÅÀÇ ÀÌ´Ï¼È(String/char)À» ÀÔ·Â ¹Ş¾Æ Ãâ·ÂÇÏ½Ã¿À.
+//ìì‹ ì˜ ì´ë‹ˆì…œ(String/char)ì„ ì…ë ¥ ë°›ì•„ ì¶œë ¥í•˜ì‹œì˜¤.
 public class Quiz01 {
 	public static void main(String[] args) throws IOException {
 		Scanner scan = new Scanner(System.in);
 
-		// System.in.read()¸¦ ÀÌ¿ë
-		System.out.print("Ã¹ ¹øÂ° ÀÌ´Ï¼È:");
+		// System.in.read()ë¥¼ ì´ìš©
+		System.out.print("ì²« ë²ˆì§¸ ì´ë‹ˆì…œ:");
 		int in1 = (char) System.in.read();
 		System.in.read();
 		System.in.read();
-		System.out.print("µÎ ¹øÂ° ÀÌ´Ï¼È:");
+		System.out.print("ë‘ ë²ˆì§¸ ì´ë‹ˆì…œ:");
 		int in2 = (char) System.in.read();
 		scan.nextLine();
-		System.out.print("¼¼ ¹øÂ° ÀÌ´Ï¼È:");
+		System.out.print("ì„¸ ë²ˆì§¸ ì´ë‹ˆì…œ:");
 		int in3 = (char) System.in.read();
 		System.out.println();
 		System.out.println();
 		System.out.println(in1 + "." + in2 + "." + in3);
 
-		// char¸¦ ÀÌ¿ë
-//      System.out.print("Ã¹ ¹øÂ° ÀÌ´Ï¼È:");
+		// charë¥¼ ì´ìš©
+//      System.out.print("ì²« ë²ˆì§¸ ì´ë‹ˆì…œ:");
 //      char in1 = scan.nextLine().charAt(0);
-//      System.out.print("µÎ ¹øÂ° ÀÌ´Ï¼È:");
+//      System.out.print("ë‘ ë²ˆì§¸ ì´ë‹ˆì…œ:");
 //      char in2 = scan.nextLine().charAt(0);
-//      System.out.print("¼¼ ¹øÂ° ÀÌ´Ï¼È:");
+//      System.out.print("ì„¸ ë²ˆì§¸ ì´ë‹ˆì…œ:");
 //      char in3 = scan.nextLine().charAt(0);
 
 //      System.out.println(in1 + "." + in2 + "." + in3);
 
-		// StringÀ» ÀÌ¿ë
+		// Stringì„ ì´ìš©
 		/*
-		 * System.out.print("ÀÌ´Ï¼È ÀÔ·Â:");
+		 * System.out.print("ì´ë‹ˆì…œ ì…ë ¥:");
 		 * 
 		 * String init = scan.nextLine();
 		 * 
-		 * System.out.println("ÀÔ·ÂÇÑ ÀÌ´Ï¼È:" + init);
+		 * System.out.println("ì…ë ¥í•œ ì´ë‹ˆì…œ:" + init);
 		 */
 		scan.close();
 	}

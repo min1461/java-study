@@ -2,7 +2,7 @@ package day04.quiz;
 
 import java.util.Scanner;
 
-//3°ú¸ñÀÇ ¼ºÀûÀ» ÀÔ·Â¹Ş¾Æ ÇÕ°è¿Í Æò±ÕÀ» ±¸ÇÏ½Ã¿À.
+//3ê³¼ëª©ì˜ ì„±ì ì„ ì…ë ¥ë°›ì•„ í•©ê³„ì™€ í‰ê· ì„ êµ¬í•˜ì‹œì˜¤.
 public class Quiz02 {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
@@ -12,18 +12,18 @@ public class Quiz02 {
 		int total = 0;
 		double avg = 0.0f;
 
-		System.out.print("±¹¾îÁ¡¼ö ÀÔ·Â:");
+		System.out.print("êµ­ì–´ì ìˆ˜ ì…ë ¥:");
 		kor = in.nextInt();
-		System.out.print("¿µ¾îÁ¡¼ö ÀÔ·Â:");
+		System.out.print("ì˜ì–´ì ìˆ˜ ì…ë ¥:");
 		eng = in.nextInt();
-		System.out.print("¼öÇĞÁ¡¼ö ÀÔ·Â:");
+		System.out.print("ìˆ˜í•™ì ìˆ˜ ì…ë ¥:");
 		mat = in.nextInt();
 
 		total = kor + eng + mat;
 		avg = (double) total / 3.0;
 
-		System.out.println("ÃÑÁ¡:" + total + "Á¡");
-		System.out.println("Æò±Õ:" + avg + "Á¡");
+		System.out.println("ì´ì :" + total + "ì ");
+		System.out.println("í‰ê· :" + avg + "ì ");
 		
 		in.close();
 		

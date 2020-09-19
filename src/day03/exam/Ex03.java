@@ -2,10 +2,10 @@ package day03.exam;
 
 public class Ex03 {
 	public static void main(String[] args) {
-		// ÀÚ¹Ù¿¡¼­ ¹®ÀÚ¿­À» µ¡¼ÀÇÒ ¼ö ÀÖ´Ù. (append)
-		System.out.println("ÀÌ¸§:"+"È«±æµ¿");	//	String
-		System.out.println("³ªÀÌ:"+20);	//	int
-		System.out.println("Å°:"+176.42);	//	double
+		// ìë°”ì—ì„œ ë¬¸ìì—´ì„ ë§ì…ˆí•  ìˆ˜ ìˆë‹¤. (append)
+		System.out.println("ì´ë¦„:"+"í™ê¸¸ë™");	//	String
+		System.out.println("ë‚˜ì´:"+20);	//	int
+		System.out.println("í‚¤:"+176.42);	//	double
 		System.out.println(""+1+2*3);
 		
 	}

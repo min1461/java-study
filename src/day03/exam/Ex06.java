@@ -1,21 +1,21 @@
 package day03.exam;
 
 import java.util.Scanner;
-// import-´Ù¸¥ ÆĞÅ°Áö¿¡ Á¤ÀÇµÈ Å¬·¡½º¸¦ »ç¿ëÇÏ°íÀÚ ¼±¾ğÇÏ´Â °Í
+// import-ë‹¤ë¥¸ íŒ¨í‚¤ì§€ì— ì •ì˜ëœ í´ë˜ìŠ¤ë¥¼ ì‚¬ìš©í•˜ê³ ì ì„ ì–¸í•˜ëŠ” ê²ƒ
 
 public class Ex06 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
-		System.out.print("ÀÌ¸§ÀÔ·Â:");
+		System.out.print("ì´ë¦„ì…ë ¥:");
 		String name = scan.nextLine();
 		System.out.println(name);
 
-		System.out.print("³ªÀÌÀÔ·Â:");
+		System.out.print("ë‚˜ì´ì…ë ¥:");
 		int age = scan.nextInt();
 		System.out.println(age);
 
-		System.out.print("Å°ÀÔ·Â:");
+		System.out.print("í‚¤ì…ë ¥:");
 		float height = scan.nextFloat();
 		System.out.println(height);
 		
