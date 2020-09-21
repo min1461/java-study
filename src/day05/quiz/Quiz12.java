@@ -16,19 +16,21 @@ public class Quiz12 {
 		c = score.nextInt();
 		score.close();
 		int sum = a + b + c;
-		float ever = (float) sum / 3;
+		float avg = (float) sum / 3;
+		char grade = 0;
 
-		if (ever >= 90) {
-			System.out.print("합계 : " + sum + "점, 평균 : " + ever + ", 등급 : " + "A");
-		} else if (ever >= 80) {
-			System.out.print("합계 : " + sum + "점, 평균 : " + ever + ", 등급 : " + "B");
-		} else if (ever >= 70) {
-			System.out.print("합계 : " + sum + "점, 평균 : " + ever + ", 등급 : " + "C");
-		} else if (ever >= 60) {
-			System.out.print("합계 : " + sum + "점, 평균 : " + ever + ", 등급 : " + "D");
+		if (avg >= 90) {
+			grade = 'A';
+		} else if (avg >= 80) {
+			grade = 'B';
+		} else if (avg >= 70) {
+			grade = 'C';
+		} else if (avg >= 60) {
+			grade = 'D';
 		} else {
-			System.out.print("합계 : " + sum + "점, 평균 : " + ever + ", 등급 : " + "E");
+			grade = 'E';
 		}
+		System.out.print("합계 : " + sum + "평균 : " + avg + "등급 : " + score);
 
 	}
 
