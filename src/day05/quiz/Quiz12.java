@@ -16,7 +16,7 @@ public class Quiz12 {
 		c = score.nextInt();
 		score.close();
 		int sum = a + b + c;
-		int ever = sum / 3;
+		float ever = (float) sum / 3;
 
 		if (ever >= 90) {
 			System.out.print("합계 : " + sum + "점, 평균 : " + ever + ", 등급 : " + "A");
