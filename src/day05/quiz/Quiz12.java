@@ -20,13 +20,13 @@ public class Quiz12 {
 
 		if (ever >= 90) {
 			System.out.print("합계 : " + sum + "점, 평균 : " + ever + ", 등급 : " + "A");
-		} else if (ever < 90 && ever >= 80) {
+		} else if (ever >= 80) {
 			System.out.print("합계 : " + sum + "점, 평균 : " + ever + ", 등급 : " + "B");
-		} else if (ever < 80 && ever >= 70) {
+		} else if (ever >= 70) {
 			System.out.print("합계 : " + sum + "점, 평균 : " + ever + ", 등급 : " + "C");
-		} else if (ever < 70 && ever >= 60) {
+		} else if (ever >= 60) {
 			System.out.print("합계 : " + sum + "점, 평균 : " + ever + ", 등급 : " + "D");
-		} else if (ever < 60) {
+		} else {
 			System.out.print("합계 : " + sum + "점, 평균 : " + ever + ", 등급 : " + "E");
 		}
 
