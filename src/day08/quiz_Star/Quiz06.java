@@ -2,6 +2,13 @@ package day08.quiz_Star;
 
 public class Quiz06 {
    public static void main(String[] args) {
+	   /*
+	    * 12345
+	    * 23456
+	    * 34567
+	    * 45678
+	    * 56789
+	    */
       System.out.println("Q6.");
       for(int i = 1; i <= 5; i++) {
          for(int j = i; j < i+5; j++) {
