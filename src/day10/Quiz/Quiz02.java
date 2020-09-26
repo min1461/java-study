@@ -3,14 +3,11 @@ package day10.Quiz;
 import java.util.Scanner;
 
 public class Quiz02 {
-	public static void bigNum(int a, int b) {
+	public static int bigNum(int a, int b) {
 		if (b >= a) {
-			return;
+			return b;
 		}else {
-			int max = 0;
-			max = a;
-			return max;
-			System.out.print("큰값 : " + max);
+			return a;
 		}
 	}
 
@@ -20,6 +17,6 @@ public class Quiz02 {
 		int a = in.nextInt();
 		System.out.print("두번째 값  : ");
 		int b = in.nextInt();
-		bigNum(a,b);
+		System.out.print("큰값 : " + bigNum(a,b));
 	}
 }
