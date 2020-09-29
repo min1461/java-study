@@ -25,7 +25,7 @@ public class Quiz03 {
 			int n1 = in.nextInt();
 			System.out.print("n2의 값 : ");
 			int n2 = in.nextInt();
-			System.out.print(nToSum(n1, n2));
+			System.out.println(nToSum(n1, n2));
 		}
 	}
 }
