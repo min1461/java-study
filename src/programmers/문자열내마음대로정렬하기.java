@@ -12,8 +12,6 @@ public class 문자열내마음대로정렬하기 {
                     String tmp = strings[i];
                     strings[i] = strings[j];
                     strings[j] = tmp;
-                }else{
-                    break;
                 }
             }
         }
