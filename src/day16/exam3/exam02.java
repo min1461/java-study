@@ -1,7 +1,7 @@
 package day16.exam3;
 
 class A{
-	final void method() {
+	/*final*/void method() {
 		System.out.println("A");
 	}
 }
