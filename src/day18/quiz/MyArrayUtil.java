@@ -1,4 +1,4 @@
-package day18.quiz;
+\package day18.quiz;
 
 class MyArrayUtil {
 	int[] arr;
